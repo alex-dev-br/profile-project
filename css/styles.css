@@ -6,7 +6,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 footer {
@@ -22,11 +22,10 @@ footer {
 
 .nav-container {
     background-color: #2C3E50;
-    font-size: large;
     height: 100px;
     width: 100%;
     padding: 20px;
-    position: fix;
+    position: fixed;
 }
 
 .nav-main {
@@ -65,7 +64,7 @@ footer {
 .profile-container {
     background-color: #1ABC9C;
     color: #fff;
-    padding: 60px 0;
+    padding: 160px 0 60px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,6 +125,14 @@ footer {
 }
 
 @media(min-width: 576px) {
+    
+    html {
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 768px) {
+
     html {
         font-size: 24px;
     }
@@ -148,7 +155,7 @@ footer {
         font-size: 30px;
     }
 
-    .menu-items {
+    .menu-items li {
         font-size: 18px;
     }
 }
